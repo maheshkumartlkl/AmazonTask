@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="purchase products test suite" duration-ms="12306" started-at="2018-10-15T17:59:22Z" finished-at="2018-10-15T17:59:34Z">
+    <groups>
+    </groups>
+    <test name="purchase products test validations" duration-ms="12306" started-at="2018-10-15T17:59:22Z" finished-at="2018-10-15T17:59:34Z">
+      <class name="ca.amazon.framework.scripts.TestBase">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:ca.amazon.framework.scripts.TestBase@7cbd213e]" name="setUp" is-config="true" duration-ms="24515" started-at="2018-10-15T17:58:58Z" finished-at="2018-10-15T17:59:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:ca.amazon.framework.scripts.TestBase@7cbd213e]" name="tearDown" is-config="true" duration-ms="701" started-at="2018-10-15T17:59:35Z" finished-at="2018-10-15T17:59:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- ca.amazon.framework.scripts.TestBase -->
+      <class name="ca.amazon.test.scripts.PurchaseProducts">
+        <test-method status="PASS" signature="proceedOrderWithoutEmailOrPwd()[pri:0, instance:ca.amazon.test.scripts.PurchaseProducts@192d3247]" name="proceedOrderWithoutEmailOrPwd" duration-ms="12206" started-at="2018-10-15T17:59:22Z" finished-at="2018-10-15T17:59:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- proceedOrderWithoutEmailOrPwd -->
+      </class> <!-- ca.amazon.test.scripts.PurchaseProducts -->
+    </test> <!-- purchase products test validations -->
+  </suite> <!-- purchase products test suite -->
+</testng-results>

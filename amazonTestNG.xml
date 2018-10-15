@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="purchase products test suite">
+    <tests>
+        <test name="purchase products test validations">
+            <classes>
+                <class name = "ca.amazon.framework.scripts.TestBase" />
+                <class name = "ca.amazon.test.scripts.PurchaseProducts" />
+            </classes>
+        </test>
+    </tests>
+    
+</suite>
